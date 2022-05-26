@@ -1,0 +1,60 @@
+body {
+  background-color: #848582;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+/* Body Divs*/
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navigation {
+  background-color: #db7806;
+  width: 100vw;
+  height: 25vh;
+}
+.Navigation h1,
+.Navigation h2,
+.Navigation p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Introduction {
+  background-color: #e41414;
+  width: 50vw;
+  height: 50vh;
+}
+
+.content {
+  background-color: #d01ad6;
+  width: 50vw;
+  height: 50vh;
+}
+
+.Image {
+  background-color: #0dc58e;
+  width: 100vw;
+  height: 25vh;
+}
+
+.quote div {
+  background-color: #d6ec0a;
+  width: 100vw;
+  height: 25vh;
+}
+
+.pageinformation {
+  background-color: #17e632;
+  width: 100vw;
+  height: 25vh;
+}
+
+.Video {
+  background-color: #3e0bf7;
+  width: 100vw;
+  height: 25vh;
+}
