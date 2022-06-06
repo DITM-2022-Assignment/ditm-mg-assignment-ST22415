@@ -1,7 +1,8 @@
 body {
   background-color: #848582;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   height: 100vh;
 }
 
@@ -11,17 +12,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-.Navigation {
-  background-color: #db7806;
-  width: 100vw;
-  height: auto;
-}
-.Navigation h1,
-.Navigation h2,
-.Navigation p {
-  margin: 0px;
-  padding: 0px;
-}
 
 .Introduction {
   background-color: #e41414;
@@ -29,22 +19,43 @@ body {
   height: 50vh;
 }
 
+.Introduction h1,
+.Introduction h2,
+.Introduction p {
+  margin: 0px;
+  padding: 0px;
+}
+
 .content {
-  background-color: #d01ad6;
+  background-image: url("../images/free\ image\ 21.jpg");
   width: 50vw;
   height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.Image {
-  background-color: #0dc58e;
-  width: 100vw;
-  height: 25vh;
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
-.quote div {
+.Image2 {
+  background-image: url("../images/free\ images\ \(2\).jpg");
+  width: 50vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote-div {
   background-color: #d6ec0a;
-  width: 100vw;
-  height: 25vh;
+  width: 50vw;
+  height: 50vh;
 }
 
 .pageinformation {
@@ -63,6 +74,39 @@ body {
   background-color: #17dfe6;
   width: 100vw;
   height: 25vh;
+}
+
+/* Navigation top-div for Index page */
+
+.Navigation {
+  background-color: #db7806;
+  height: 20vh;
+}
+
+.Navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Navigation ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-size: 2rem;
+}
+
+.Navigation ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease 0s;
+}
+
+.Navigation ul li a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 /* Style inputs with type="text", select elements and textareas */
