@@ -1,5 +1,5 @@
 body {
-  background-color: #848582;
+  background-color: #e0daa3;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -14,9 +14,11 @@ body {
 }
 
 .Introduction {
-  background-color: #e41414;
+  background-color: #e0daa3;
   width: 50vw;
   height: 50vh;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .Introduction h1,
@@ -35,16 +37,17 @@ body {
   background-position: center;
 }
 
-.flex2 {
+.background_and_Image_container {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
   margin: 0;
 }
+/* background & image container*/
 
-.Image2 {
-  background-image: url("../images/free\ images\ \(2\).jpg");
+.background_image {
+  background-image: url("../images/free\ image\ 21.jpg");
   width: 50vw;
   height: 50vh;
   background-repeat: no-repeat;
@@ -53,33 +56,27 @@ body {
 }
 
 .quote-div {
-  background-color: #d6ec0a;
+  background-color: #e0daa3;
   width: 50vw;
   height: 50vh;
 }
 
 .pageinformation {
-  background-color: #17e632;
+  background-color: #779c85;
   width: 100vw;
   height: 25vh;
 }
 
-.Video {
-  background-color: #3e0bf7;
-  width: 100vw;
-  height: 25vh;
-}
-
-.background {
+.cause-paragraph .background {
   background-color: #17dfe6;
   width: 100vw;
   height: 25vh;
 }
 
-/* Navigation top-div for Index page */
+/* Navigation for Index page */
 
 .Navigation {
-  background-color: #db7806;
+  background-color: #e0daa3;
   height: 20vh;
 }
 
@@ -105,7 +102,7 @@ body {
 }
 
 .Navigation ul li a:hover {
-  color: blue;
+  color: rgb(114, 158, 141);
   text-decoration: underline;
 }
 
@@ -135,7 +132,7 @@ input[type="submit"] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
-  background-color: #fffb13;
+  background-color: #13130f;
 }
 
 /* Add a background color and some padding around the form */
